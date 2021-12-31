@@ -85,4 +85,7 @@ input:checked{
   .labels{
     width: 80vw;
   }
+  .answers input{
+    margin: 0.5em;
+  }
 }
