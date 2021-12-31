@@ -86,6 +86,6 @@ input:checked{
     width: 80vw;
   }
   .answers input{
-    margin: 0.5em;
+    margin: 0.25em;
   }
 }
