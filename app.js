@@ -233,6 +233,27 @@ document.getElementById('next-button').addEventListener('click',()=>{
     }
   }
  
+  /* TO ADD A QUESTION FOLLOW THE FOLLOWING SYNTAX
+ 
+  if (quesCounter == QUESTION_INDEX){
+    if (response == "completely-disagree"){
+      AWARD POINTS TO THE PARTY WHO'S VIEWS ARE SAME AS THIS
+    }
+    if (response == "slightly-disagree"){
+      AWARD POINTS TO THE PARTY WHO'S VIEWS ARE SAME AS THIS
+    }
+    if (response == "not-sure"){
+      AWARD POINTS TO THE PARTY WHO'S VIEWS ARE SAME AS THIS
+    }
+    if (response == "slightly-agree"){
+      AWARD POINTS TO THE PARTY WHO'S VIEWS ARE SAME AS THIS
+    }
+    if (response == "completely-agree"){
+      AWARD POINTS TO THE PARTY WHO'S VIEWS ARE SAME AS THIS
+    }
+  }
+ 
+ */
 
   document.querySelector('input[name="choice"]:checked').checked = false;
   quesCounter++;
