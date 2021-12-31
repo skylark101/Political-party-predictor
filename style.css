@@ -77,7 +77,7 @@ input:checked{
 }
 #ans{
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 @media only screen and (max-width:991px){
