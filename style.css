@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  
+}
+.question{
+  font-size: 1.5rem;
+}
+.answers input{
+  margin: 1em;
+}
+input:checked{
+ background-color: green;
+}
+
+.labels{
+  width: 40vw;
+  margin: auto;
+}
+#completely-disagree,
+#completely-agree{
+
+  width: 4rem;
+  height: 4rem;
+}
+
+#slightly-disagree,
+#slightly-agree{
+
+  width: 3rem;
+  height: 3rem;
+}
+
+#not-sure{
+  width: 2rem;
+  height: 2rem;
+}
+#Disagree{
+  float: left;
+  font-size: 1.5em;
+}
+#Agree{
+  float: right;
+  font-size: 1.5em;
+}
+
+
+#next-button{
+  padding: 1%;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+
+#answer-party{
+  display: none;
+}
+#ans{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media only screen and (max-width:991px){
+
+  .labels{
+    width: 80vw;
+  }
+}
